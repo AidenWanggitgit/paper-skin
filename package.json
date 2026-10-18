@@ -1,0 +1,64 @@
+{
+  "name": "paper-skin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A scholarly journal-desk skin for DeepSeek Harness: Nature, Science, IEEE and Elsevier covers, manuscript stages, and a professional editorial letter behind the conversation.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "journal",
+    "academic"
+  ],
+  "author": "Paper Skin contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1552421144-cloud/paper-skin.git"
+  },
+  "homepage": "https://github.com/1552421144-cloud/paper-skin#readme",
+  "bugs": {
+    "url": "https://github.com/1552421144-cloud/paper-skin/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/*",
+    "docs/*.webp",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Paper Skin">
+  <rect width="128" height="128" rx="20" fill="#f4eee2"/>
+  <rect x="23" y="17" width="82" height="94" rx="3" fill="#123c2d"/>
+  <rect x="29.5" y="23.5" width="69" height="81" rx="1.5" fill="none" stroke="#f2ead8" stroke-opacity=".46"/>
+  <path d="M39 38h50M39 44h32" stroke="#f2ead8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="67" cy="67" r="14" fill="none" stroke="#f2ead8" stroke-opacity=".62"/>
+  <path d="M61 67.5l4.2 4.2 8.3-9" fill="none" stroke="#f2ead8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 92h50" stroke="#f2ead8" stroke-opacity=".44" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="94" cy="94" r="18" fill="#a52a2a"/>
+  <circle cx="94" cy="94" r="13.5" fill="none" stroke="#f4eee2" stroke-opacity=".8"/>
+  <path d="M87 94.5l4.8 4.3 9-10" fill="none" stroke="#f4eee2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,5 @@
+# Paper Skin bundle layer.
+# A journal-desk skin for DeepSeek Harness: paper, ink, four covers, one ACCEPT.
+- insert:
+    - id: paper-skin
+      name: 'paper-skin'
